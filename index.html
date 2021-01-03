@@ -5,14 +5,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | carTest</title>
   </head>
-  <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 675px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/0101_C.loader.js"></script>
+  <body style="text-align: center; margin-top: 50px;">
+    <canvas id="unity-canvas" style="width: 675px; height: 1080px; background: #231F20; border-radius: 24px;"></canvas>
+    <script src="Build/0102.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/0101_C.data",
-        frameworkUrl: "Build/0101_C.framework.js",
-        codeUrl: "Build/0101_C.wasm",
+        dataUrl: "Build/0102.data",
+        frameworkUrl: "Build/0102.framework.js",
+        codeUrl: "Build/0102.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "carTest",
