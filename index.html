@@ -5,20 +5,25 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Epochal</title>
     <link rel="stylesheet" href="mystyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" style="width: 675px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/0104_E.loader.js"></script>
+    <script src="Build/0106.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/0104_E.data",
-        frameworkUrl: "Build/0104_E.framework.js",
-        codeUrl: "Build/0104_E.wasm",
+        dataUrl: "Build/0106.data",
+        frameworkUrl: "Build/0106.framework.js",
+        codeUrl: "Build/0106.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "carTest",
         productVersion: "0.1",
       });
     </script>
+
+    <p>1. In Drive (D): press UpArrow ↑ to accelerate, press DownArrow ↓ to break.</p>
+    <p>2. Speed must be 0 to change transmission mode.</p>
   </body>
 </html>
