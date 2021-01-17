@@ -1,10 +1,16 @@
 canvas {
-    margin-top: 48px;
-    border-radius: 24px;
-
+    margin-top: 96px;
+    border-radius: 16px;
+    margin-bottom: 24px;
 
 }
 
+body{
+    background: #212022;
+}
+
 p {
+    margin: 8px 0px 8px 0px;
     font-family: 'Lato', sans-serif;
+    color: grey;
 }
